@@ -1,0 +1,12 @@
+node-escape-html (1.0.3-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+
+ -- Pirate Praveen <praveen@debian.org>  Mon, 04 Sep 2017 09:17:38 +0530
+
+node-escape-html (1.0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #744773)
+
+ -- Leo Iannacone <l3on@ubuntu.com>  Wed, 16 Apr 2014 15:38:00 +0200

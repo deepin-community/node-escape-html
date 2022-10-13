@@ -1,0 +1,3 @@
+version=3
+opts=filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-escape-html-$1.tar.gz/ \
+ https://github.com/component/escape-html/tags .*/archive/v?([\d\.]+).tar.gz

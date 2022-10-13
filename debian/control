@@ -1,0 +1,23 @@
+Source: node-escape-html
+Section: web
+Priority: extra
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Leo Iannacone <l3on@ubuntu.com>
+Build-Depends:
+ debhelper (>= 9)
+ , dh-buildinfo
+Standards-Version: 4.1.0
+Homepage: https://github.com/component/escape-html
+Vcs-Git: https://anonscm.debian.org/git/collab-maint/node-escape-html.git
+Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/node-escape-html.git
+
+Package: node-escape-html
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+Description: simply escape HTML entities
+ Contains a simple module to fast escape HTML
+ entities.
+ .
+ Node.js is an event-based server-side JavaScript engine.
