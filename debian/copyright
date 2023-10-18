@@ -1,9 +1,18 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: escape-html
 Source: https://github.com/component/escape-html
+ https://registry.npmjs.org/@types/escape-html
 
 Files: *
 Copyright: 2014 TJ Holowaychuk <tj@vision-media.ca>
+License: Expat
+
+Files: debian/*
+Copyright: 2014 Leo Iannacone <l3on@ubuntu.com>
+License: GPL-3
+
+Files: types-escape-html/*
+Copyright: Microsoft Corporation
 License: Expat
 
 License: Expat
@@ -26,11 +35,6 @@ License: Expat
  ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  SOFTWARE.
- 
-
-Files: debian/*
-Copyright: 2014 Leo Iannacone <l3on@ubuntu.com>
-License: GPL-3
 
 License: GPL-3
  This program is free software: you can redistribute it and/or modify
@@ -48,4 +52,3 @@ License: GPL-3
  .
  On Debian systems, the complete text of the GNU General
  Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
-

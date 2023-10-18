@@ -1,1 +1,4 @@
-.pc/
+build
+components
+node_modules
+npm-debug.log

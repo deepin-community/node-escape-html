@@ -1,3 +1,44 @@
+node-escape-html (1.0.3+~1.0.2-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-escape-html: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 22 Nov 2022 11:04:17 +0000
+
+node-escape-html (1.0.3+~1.0.2-1) unstable; urgency=medium
+
+  * Team upload
+  * Embed @types/escape-html component
+  * Import upstream version 1.0.3+~1.0.2-1
+
+ -- Michael Ikwuegbu <michaelikwuegbu1@gmail.com>  Sun, 17 Apr 2022 06:15:58 -0400
+
+node-escape-html (1.0.3-2) unstable; urgency=medium
+
+  [ lintian-brush ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from deprecated 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Change priority extra to priority optional.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers to use salsa repository.
+  * Update standards version to 4.6.0, no changes needed.
+
+  [ Yadd ]
+  * Bump debhelper compatibility level to 13
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+    * Fix GitHub tags regex
+    * Fix filenamemangle
+  * Drop dependency to nodejs
+  * Use dh-sequence-nodejs auto install
+
+ -- Yadd <yadd@debian.org>  Sun, 21 Nov 2021 15:16:47 +0100
+
 node-escape-html (1.0.3-1) unstable; urgency=medium
 
   * Team upload
